@@ -10,17 +10,17 @@ public class StudentUtilityApp {
             switch(option){
                 case 1:
                 AddNumbers.addTwoNumbers(inputScanner);
+                break;
                 case 2:
                     EvenAndOdd.checkEvenOrOdd(inputScanner);
+                    break;
                 case 3:
                     PrintNumbers.printNumbersN(inputScanner);
+                    break;
                 case 4:
                     PrintDayOfWeek.printDayOfWeek(inputScanner);
-                case 5:
-                    System.out.println("Thank you for using the app");
-                    System.exit(0);
-                default:
-                    System.out.println("Try another option");
+                    break;
+
             }
 
         }while (option != 5);
