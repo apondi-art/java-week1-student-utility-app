@@ -13,6 +13,7 @@ public class StudentUtilityApp {
                 case 2:
                     EvenAndOdd.checkEvenOrOdd(inputScanner);
                 case 3:
+                    PrintNumbers.printNumbersN(inputScanner);
 
             }
 
