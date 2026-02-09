@@ -7,6 +7,12 @@ public class StudentUtilityApp {
         do{
             Menu.showMenu();
             option = inputScanner.nextInt();
+            switch(option){
+                case 1:
+                AddNumbers.addTwoNumbers(inputScanner);
+                case 2:
+
+            }
 
         }while (option != 5);
 
