@@ -16,7 +16,11 @@ public class StudentUtilityApp {
                     PrintNumbers.printNumbersN(inputScanner);
                 case 4:
                     PrintDayOfWeek.printDayOfWeek(inputScanner);
-
+                case 5:
+                    System.out.println("Thank you for using the app");
+                    System.exit(0);
+                default:
+                    System.out.println("Try another option");
             }
 
         }while (option != 5);
