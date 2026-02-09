@@ -14,6 +14,8 @@ public class StudentUtilityApp {
                     EvenAndOdd.checkEvenOrOdd(inputScanner);
                 case 3:
                     PrintNumbers.printNumbersN(inputScanner);
+                case 4:
+                    PrintDayOfWeek.printDayOfWeek(inputScanner);
 
             }
 
