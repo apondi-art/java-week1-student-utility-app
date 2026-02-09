@@ -5,10 +5,7 @@ public class EvenAndOdd {
         System.out.print("Enter a number to check if it's EVEN or ODD: ");
         int number = scanner.nextInt();
 
-        if (number % 2 == 0) {
-            System.out.println(number + " is EVEN.");
-        } else {
-            System.out.println(number + " is ODD.");
-        }
+        String result = (number % 2 == 0) ? "EVEN" : "ODD";
+        System.out.println(number + " is " + result + ".");
     }
 }
