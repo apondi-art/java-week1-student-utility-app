@@ -20,7 +20,9 @@ public class StudentUtilityApp {
                 case 4:
                     PrintDayOfWeek.printDayOfWeek(inputScanner);
                     break;
-
+                case 5:
+                    System.out.println("Thank you for using the app");
+                    break;
             }
 
         }while (option != 5);
