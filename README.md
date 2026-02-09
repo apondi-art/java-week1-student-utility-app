@@ -39,4 +39,4 @@ Enter a number to check if it's EVEN or ODD: 5
 ```
 
 ## Author
-Quinter
+Quinter Ochieng
