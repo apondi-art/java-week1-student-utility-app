@@ -11,6 +11,8 @@ public class StudentUtilityApp {
                 case 1:
                 AddNumbers.addTwoNumbers(inputScanner);
                 case 2:
+                    EvenAndOdd.checkEvenOrOdd(inputScanner);
+                case 3:
 
             }
 
